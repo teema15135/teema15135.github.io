@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Kanit';   
+}
+
+a {
+    color: #0471FF;
+}
+
+.quote_en {
+    font-family: 'M PLUS Rounded 1c';
+}
+
+.quote_th {
+    font-family: 'Athiti';
+}
