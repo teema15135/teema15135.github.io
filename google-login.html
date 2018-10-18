@@ -10,7 +10,8 @@
         
         article {
             background-color: rgba(0,0,0,0.1);
-            padding: 10px;
+            padding: 20px;
+            width: 25%;
         }
 
         article img {
@@ -31,6 +32,7 @@
             var profile = googleUser.getBasicProfile();
             googleProfile = googleUser.getBasicProfile();
             displayProfile();
+            console.log(googleProfile);
             console.log(googleUser);
             console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
             console.log('Name: ' + profile.getName());
@@ -41,7 +43,15 @@
         function displayProfile() {
             var art = document.createElement('article');
             var h2 = document.createElement('h2');
-            var p;
+            var para = document.createElement('p');
+            var img = document.createElement('img');
+
+            img.setAttribute('src', googleProfile.getImageUrl());
+            para.textContent = googleProfile.getEmail();
+
+            art.appendChild(h2);
+            art.appendChild(img);
+            document.body.appendChild(art);
         }
 
     </script>
