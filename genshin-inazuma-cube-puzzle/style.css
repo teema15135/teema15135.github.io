@@ -1,0 +1,68 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.config-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table .link-button {
+    display: none;
+}
+
+.link-active table .node.active .link-button {
+    display: block;
+}
+
+#reset-link-button {
+    display: none;
+}
+
+.link-active #reset-link-button {
+    display: block;
+}
+
+.node {
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 128px;
+    height: 128px;
+    background-color: beige;
+    text-align: center;
+    font-size: 48pt;
+    margin-right: 8px;
+    padding: 8px;
+}
+
+.node.start-border {
+    border: 3px solid red;
+}
+
+.node.affect-border {
+    border: 3px solid rgb(255, 128, 128);
+}
+
+.node > .hit-button {
+    display: none;
+}
+
+.node.active > .hit-button {
+    display: block;
+}
+
+.node > .add-button {
+    display: block;
+}
+
+.node.active > .add-button {
+    display: none;
+}
