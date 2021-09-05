@@ -1,0 +1,53 @@
+/* #181D27 */
+
+.raisin-black {
+    color: #181D27;
+}
+
+.british-racing-green {
+    color: #234D32;
+}
+
+.fern-green {
+    color: #3A7D44;
+}
+
+.medium-sea-green {
+    color: #69B578;
+}
+
+.yellow-green-crayola {
+    color: #D0DB97;
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    background-color: #D0DB97;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: #234D32;
+}
+
+.time-text {
+    color: #181D27;
+    font-size: 24pt;
+}
+
+.time-text .label {
+    font-size: 36pt;
+    color: #3A7D44;
+}
+
+.time-text .time {
+    font-size: 48pt;
+    color: #234D32;
+}
