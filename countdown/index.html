@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Countdown</title>
 </head>
@@ -16,24 +16,24 @@
     <section>
         <div class="container">
             <h1 class="title">Flight to Khon Kaen in</h1>
-            <h1 class="time-text">
-                <span class="day time">1</span>
-                &nbsp;
-                <span class="day label">Day</span>
-                &nbsp;&nbsp;
-                <span class="hour time">2</span>
-                &nbsp;
-                <span class="hour label">Hour </span>
-                &nbsp;&nbsp;
-                <span class="minute time">4</span>
-                &nbsp;
-                <span class="minute label">Minute </span>
-                &nbsp;&nbsp;
-                <span class="second time">5</span>
-                &nbsp;
-                <span class="second label">Second </span>
-            </h1>
-        </div>
+            <div class="time-text">
+                <div class="time-text-container">
+                    <span class="day time">1</span>
+                    <span class="day label">Day</span>
+                </div>
+                <div class="time-text-container">
+                    <span class="hour time">2</span>
+                    <span class="hour label">Hour</span>
+                </div>
+                <div class="time-text-container">
+                    <span class="minute time">4</span>
+                    <span class="minute label">Minute</span>
+                </div>
+                <div class="time-text-container">
+                    <span class="second time">5</span>
+                    <span class="second label">Second</span>
+                </div>
+            </div>
     </section>
     <script defer src="controller.js"></script>
 </body>

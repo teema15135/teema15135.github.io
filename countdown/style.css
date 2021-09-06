@@ -38,8 +38,17 @@ body {
 }
 
 .time-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     color: #181D27;
     font-size: 24pt;
+}
+
+.time-text-container {
+    margin-right: 16px;
 }
 
 .time-text .label {
