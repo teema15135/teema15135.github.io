@@ -1,5 +1,5 @@
-const COUNT_TO = 1632496500000 + ((new Date()).getTimezoneOffset() * 60 * 1000)
-// 1632496500000
+const COUNT_TO = 1632502800000 + ((new Date()).getTimezoneOffset() * 60 * 1000)
+
 
 function updateText(day, hour, minute, second) {
     document.querySelector(".day.time").textContent = day
