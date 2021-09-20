@@ -60,3 +60,12 @@ body {
     font-size: 48pt;
     color: #234D32;
 }
+
+.time-complete {
+    font-size: 48pt;
+    color: #3A7D44;
+}
+
+.gone {
+    display: none;
+}
