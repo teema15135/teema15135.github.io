@@ -1,4 +1,4 @@
-const COUNT_TO = 1632502800000 + ((new Date()).getTimezoneOffset() * 60 * 1000)
+const COUNT_TO = 1634908500000 + ((new Date()).getTimezoneOffset() * 60 * 1000)
 
 
 function updateText(day, hour, minute, second) {
